@@ -1,0 +1,80 @@
+body, html, * {
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(9, 177, 177);
+}
+.main h2 {
+    font-size: 1.8em;
+    color: rgba(0, 0, 0, 0.8);
+}
+.container {
+    /* background: red; */
+    border-width: 30px 10px 16px;
+    border-style: solid;
+    border-color: #222;
+    border-radius: 15px;
+    box-shadow: 0px 0px 40px 1px rgba(0, 0, 0, 0.8);
+}
+/* display screen */
+.display {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 229px;
+    height: 200px;
+    background: #eee;
+    /* border: 1px solid #585858; */
+}
+.exp {
+    width: 100%;
+    text-align: right;
+    font-size: 24px;
+    height: 65%;
+    overflow: hidden;
+}
+.ans {
+    width: 100%;
+    text-align: right;
+    font-size: 20px;
+    height: 25%;
+}
+/* buttons */
+.button {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border-top: 0.5px solid #707070;
+}
+.number {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 181px;
+    border-right: 1px solid #707070;
+}
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.oprbutton {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+.oprbutton button {
+    width: 48px;
+    height: 48px;
+    font-size: 22px;
+}
